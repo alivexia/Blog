@@ -1,0 +1,76 @@
+.page-container{
+  background-color: rgb(23, 26, 33);
+  width: 100%;
+  padding: 12px;
+  margin: auto;
+}
+.page-title{
+  color:rgb(255, 255, 255);
+  position: relative;
+  font-size: 32px;
+  font-family: Arial;
+  padding: 10px;
+  border
+}
+.headimg{
+  display: block;
+  width: 12%;
+}
+.head{
+  min-width: 1000px;
+  height:80px;
+  width: 100%;
+  background-color: rgb(36, 54, 99);
+  border-bottom-style: solid;
+  border-bottom: 1px;
+  border-bottom-color: rgb(29, 15, 42)
+}
+.left{
+    background-color: #01070b;
+    background-size: cover;
+    height: 100%;
+    position: fixed;
+    width: 270px;
+}
+.head_left{
+  border-bottom: none;
+  height: auto;
+  line-height: 30px;
+  margin-left: 50px;
+  padding: 30px 0;
+  width: 100%;
+}
+.authorpic{
+  background-image: url(../img/headpic.jpg);
+  background-size: 160px 160px;
+  border-radius: 50%;
+  display: block;
+  height: 160px;
+  margin: 15px 0px 20px -10px;
+  width: 160px;
+}
+.main{
+  background-image: url(../img/bgimg.jpg);
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+#main-nav{
+  margin-top: 15px;
+  float: none;
+}
+#header a:link{
+  color: #EFEFEF;
+  text-shadow: 0 1px #333;
+}
+#header a:hover{
+    color: #2479CC;
+    text-decoration: none;
+}
+#header .subtitle {
+    color: #d1deaa;
+  }
+#header h1{
+  font-size: 25px;
+}

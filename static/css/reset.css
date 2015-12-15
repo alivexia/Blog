@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+div{
+	display: block;
+}
+body{
+	word-wrap: break-word;
+	font-family: Helvetica;
+	color: #8F98A0;
+}
+a{
+	color: #2479CC;
+	text-decoration: none;
+}
+li{
+	display: list-item;
+	list-style-type:none;
+}
